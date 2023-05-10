@@ -1,0 +1,14 @@
+.DatePicker {
+  position: relative;
+}
+
+.DatePicker__Calendar {
+  position: absolute;
+  top: 0;
+  left: 50px;
+  z-index: 1;
+}
+
+.DatePicker__Calendar--hidden {
+  display: none;
+}

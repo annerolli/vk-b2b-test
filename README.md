@@ -5,3 +5,4 @@
 ## Реализации
 
 - [Vanilla JS](./vanilla/);
+- [React](./react/).
