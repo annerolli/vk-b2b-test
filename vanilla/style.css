@@ -1,0 +1,9 @@
+.app {
+  display: flex;
+  justify-content: center;
+}
+
+.app__form {
+  width: 100%;
+  max-width: 526px;
+}

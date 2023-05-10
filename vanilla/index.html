@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VK B2B Test Vanilla JS</title>
+  </head>
+  <body>
+    <div class="app">
+      <form name="%VITE_APP_FORM_NAME%" class="app__form form">
+        <div class="form-item">
+          <h2 class="heading">Бронирование переговорной</h2>
+        </div>
+        <label class="form-item">
+          <span class="form-item__label">Башня</span>
+          <select name="%VITE_APP_FORM_TOWER_FIELD%" class="form-item__control" required>
+            <option value="tower-a">Башня А</option>
+            <option value="tower-b">Башня Б</option>
+          </select>
+        </label>
+
+        <label class="form-item">
+          <span class="form-item__label">Этаж</span>
+          <select name="%VITE_APP_FORM_FLOOR_FIELD%" class="form-item__control" required>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+          </select>
+        </label>
+
+        <label class="form-item">
+          <span class="form-item__label">Номер переговорной</span>
+          <select name="%VITE_APP_FORM_ROOM_FIELD%" class="form-item__control" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </label>
+
+        <label class="form-item">
+          <span class="form-item__label">Дата</span>
+          <input class="form-item__control" type="datetime-local" name="%VITE_APP_FORM_DATE_FIELD%" required />
+        </label>
+
+        <label class="form-item">
+          <span class="form-item__label">Комментарий</span>
+          <textarea class="form-item__control" name="%VITE_APP_FORM_COMMENT_FIELD%" cols="30" rows="3"></textarea>
+        </label>
+
+        <div class="form-group">
+          <div class="form-item">
+            <button type="submit" class="button button--m-primary">Отправить</button>
+          </div>
+          <div class="form-item">
+            <button type="reset" class="button button--m-secondary">Сбросить</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

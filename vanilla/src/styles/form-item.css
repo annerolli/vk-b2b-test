@@ -1,0 +1,22 @@
+.form-item {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.form-item__label {
+  color: var(--form-item_label_foreground);
+  font-size: 12px;
+}
+
+.form-item__control {
+  min-height: 28px;
+}
+
+.form-item__label + .form-item__control {
+  margin-top: 4px;
+}
+
+.form-item__control:invalid:focus {
+  outline: 4px auto var(--form-item_control_invalide);
+}

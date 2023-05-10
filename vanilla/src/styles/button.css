@@ -1,0 +1,33 @@
+.button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.button--m-primary {
+  background-color: var(--button_primary_background);
+  color: var(--button_primary_foreground);
+}
+
+.button--m-secondary {
+  background-color: var(--button_secondary_background);
+  color: var(--button_secondary_foreground);
+}
+
+.button--m-primary:hover {
+  border-color: var(--button_primary_border);
+}
+
+.button--m-secondary:hover {
+  border-color: var(--button_secondary_border);
+}
+
+.button:focus,
+.button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}

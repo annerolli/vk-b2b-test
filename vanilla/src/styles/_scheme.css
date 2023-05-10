@@ -1,0 +1,12 @@
+:root {
+  --button_primary_background: royalblue;
+  --button_primary_foreground: #fff;
+  --button_primary_border: #fff;
+
+  --button_secondary_background: #f9f9f9;
+  --button_secondary_foreground: #213547;
+  --button_secondary_border: #646cff;
+
+  --form-item_label_foreground: gray;
+  --form-item_control_invalide: tomato;
+}
